@@ -11,10 +11,17 @@
       <h1>Doctor Lookup</h1>
       <form id='doctorForm'>
         <div class="form-group">
-          <label for="doctor">Search Doctors Name</label>
+          <label for="doctor">Search by Doctors Name</label>
           <input class="form-control" name="doctor" id="doctor" type="text" required>
         </div>
         <button class="btn btn-danger">Search</button>
+      </form>
+      <form id='issueForm'>
+        <div class="form-group">
+          <label for="issue">Search by Issue: </label>
+          <input class="form-control" name="issue" id="issue" type="text" required>
+        </div>
+        <button class="btn btn-warning">Search</button>
       </form>
     <h1>Doctors: </h1>
     <div class='doctorsList'></div>
