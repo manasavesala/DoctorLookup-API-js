@@ -57,9 +57,7 @@ $(document).ready(function() {
             ${body.data[i].practices[0].phones[0].number}<br> <h4> Address: </h4>`+`
             ${body.data[i].practices[0].visit_address.street}<br>`+`
             ${body.data[i].practices[0].visit_address.city}<br>`+`</h4> <br>`+` <h4>Accepting New Patients:</h4> `+`
-            ${body.data[i].practices[0].accepts_new_patients}`+`<br>`+`<h4>description</h4> `+`
-            ${body.data[i].specialties[0].bio}`+`<br><h4>Title: </h4>`+`
-            ${body.data[i].specialties[0].actor}`+`<hr>`);
+            ${body.data[i].practices[0].accepts_new_patients}`+`<hr>`);
           }
         }
       }, function (error) {
